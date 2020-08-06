@@ -1,7 +1,7 @@
 const express = require('express')
 const helmet = require('helmet')
 
-const server = expres()
+const server = express()
 
 server.use(helmet())
 
